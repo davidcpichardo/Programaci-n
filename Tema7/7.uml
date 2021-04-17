@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/David/IdeaProjects/Tema7</OriginalElement>
+  <nodes>
+    <node x="529.0" y="0.0">Test</node>
+    <node x="284.0" y="361.5">Nuevo</node>
+    <node x="162.25" y="0.0">Producto</node>
+    <node x="45.0" y="328.0">Km0</node>
+    <node x="0.0" y="524.0">SegundaMano</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="SegundaMano" target="Km0" relationship="GENERALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="Nuevo" target="Producto" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="384.0" y="303.0" />
+      <point x="269.25" y="303.0" />
+      <point x="0.0" y="139.0" />
+    </edge>
+    <edge source="Km0" target="Producto" relationship="GENERALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="154.5" y="303.0" />
+      <point x="269.25" y="303.0" />
+      <point x="0.0" y="139.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="115.0" y="134.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
